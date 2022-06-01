@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Playfair Display', serif;
+    font-family: 'BIZ UDPGothic', sans-serif;
 }
 #banner{
     background: url(images/spring.jpg);
@@ -9,15 +9,9 @@
     background-position: center;
     height: 100vh;
 }
-.logo{
-    width: 140px;
-    position: absolute;
-    top: 1%;
-    left: 1%;
-}
 .banner-text{
     text-align: center;
-    color: rgb(0, 255, 136);
+    color: rgb(1,3,38);
     padding-top: 180px;
 }
 .banner-text h1{
@@ -27,30 +21,67 @@
     font-size: 20px;
     font-style: italic;
 }
-.banner-btn{
-    margin: 70px auto 0;
-}
-.banner-btn a{
-    width: 150px;
-    text-decoration: none;
-    display: inline-block;
-    margin: 0 10px;
-    padding: 12px 0;
-    color: #fff;
-    border: .5px solid #fff;
-    position: relative;
-    z-index: 1;
-}
-.banner-btn a span{
-    width: 0;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: #fff;
-    z-index: -1;
-    transition: 0.5s;
-}
-.banner-btn a:hover span{
+
+#About-me{
     width: 100%;
+    padding: 70px;
+}
+
+.title-text{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.title-text h1{
+    padding: 70px;
+    margin: auto;
+    font-size: 50px;
+    color: #009688;
+    font-weight: bold;
+}
+.about{
+    flex-basis: 50%;
+}
+.about-img{
+    flex-basis: 50%;
+    margin: auto;
+}
+.about-img img{
+    width: 70%;
+    border-radius: 10px;
+}
+.about h2{
+    text-align: left;
+    margin-bottom: 10px;
+    font-weight: 100;
+}
+.about-box{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+.about-text{
+    padding: 0 20px;
+    text-align: initial;
+}
+.about-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+#past{
+    width: 100%;
+    padding: 70px 0;
+    background: #efefef;
+}
+.past-desc{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.past-text{
+    padding: 0 20px;
+    text-align: initial;
 }
