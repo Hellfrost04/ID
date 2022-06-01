@@ -35,7 +35,7 @@
     padding: 70px;
     margin: auto;
     font-size: 50px;
-    color: #009688;
+    color: #4AA2D9;
     font-weight: bold;
 }
 .about{
@@ -74,7 +74,7 @@
 #past{
     width: 100%;
     padding: 70px 0;
-    background: #efefef;
+    background: #4AA2D9;
 }
 #contact-me{
     width: 100%;
@@ -103,4 +103,4 @@
     display: flex;
     align-items: center;
     margin-bottom: 40px;
-}
+} 
